@@ -57,7 +57,7 @@ section {
 /* hero section */
 
 .hero {
-  background: url(/assets/images/steampunk.jpg) black;
+  background: url(./assets/images/steampunk.jpg) black;
   background-size: cover;
   background-position: 80%;
   display: flex;
