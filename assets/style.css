@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 5px 35px;
+  background-color: #315666;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
+  z-index: 9999;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0;
+}
+
+header a {
+  margin: 0px 50px;
+  color: black;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  margin: 0 40px;
+  font-weight: lighter;
+  font-size: 1.5vw;
+  text-shadow: 0, 0, 10px black;
+  color: black;
+}
+
+section {
+  padding: 60px;
+}
+
+/* hero section */
+
+.hero {
+  background: url(/assets/images/steampunk.jpg) black;
+  background-size: cover;
+  background-position: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-position: fixed;
+  height: 300px;
+}
+
+body {
+  background-color: #636e72;
+}
+
+img {
+  max-width: 60%;
+}
+
+.horiseon {
+  max-width: 40%;
+}
+
+section {
+  font-size: 25px;
+}
+
+h1 img {
+  border-radius: 50%;
+  border-top: 25px;
+}
